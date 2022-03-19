@@ -1,0 +1,131 @@
+#login-container {
+    width: 40%;
+    height: 550px;
+    margin: auto;
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 30%;
+    margin-top: 70px;
+    background-image: linear-gradient(to right, rgb(121, 121, 197), rgb(219, 201, 231), yellow, green, rgb(247, 236, 236), violet);
+}
+
+#p {
+    font-size: 30px;
+    margin-left: 60%;
+}
+
+#email {
+    width: 600px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 1%;
+}
+
+#head {
+    font-weight: bolder;
+    margin-left: 10%;
+    color: rgb(27, 23, 235);
+    font-size: 30px;
+}
+
+#password {
+    width: 600px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 1%;
+}
+
+#loginform {
+    margin-left: 10%;
+}
+
+#btn1 {
+    width: 350px;
+    height: 40px;
+    background-color: rgb(2, 2, 7);
+    color: white;
+    font-size: 30px;
+    margin-left: 29%;
+    margin-top: 5%;
+    border-radius: 50%;
+}
+
+#btn1:hover {
+    background-color: rgb(253, 23, 15);
+}
+
+#creat {
+    width: 350px;
+    height: 40px;
+    background-color: rgb(22, 223, 15);
+    color: white;
+    font-size: 20px;
+    margin-left: 29%;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+#creat:hover {
+    background-color: rgb(7, 7, 138);
+}
+
+.lable {
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    color: red;
+    font-weight: bold;
+}
+
+#forg #forgot {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#forg #forgot:hover {
+    cursor: pointer;
+    color: rgb(233, 12, 12);
+    text-decoration: underline;
+}
+
+.sloder {
+    width: 100%;
+    height: 200px;
+    background: url('https://www.codeproject.com/KB/HTML/396639/1.png');
+    background-repeat: no-repeat;
+    background-size: 730px;
+    animation: slide 60s infinite;
+    margin-left: 30%;
+    margin-bottom: -60px;
+}
+
+@keyframes slide {
+    25% {
+        background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb2HZN6D5VQl682d8qb9PnmIQkdWHLFO5WaQ&usqp=CAU");
+        background-repeat: no-repeat;
+        background-size: 730px;
+    }
+    50% {
+        background: url("https://media.geeksforgeeks.org/wp-content/uploads/snake-and-ladders.jpg");
+        background-repeat: no-repeat;
+        background-size: 730px;
+    }
+    75% {
+        background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4deoN4DUTkJ-eY_3GQODqAdofAsfINN5Wag&usqp=CAU");
+        background-repeat: no-repeat;
+        background-size: 730px;
+    }
+    100% {
+        background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf4gcZmrYkC4JidGOAGvUg4JvcScodo9H7Uw&usqp=CAU");
+        background-repeat: no-repeat;
+        background-size: 730px;
+    }
+}
+
+#marquee {
+    /* border: 1px solid red; */
+    width: 40%;
+    margin-left: 30%;
+}
