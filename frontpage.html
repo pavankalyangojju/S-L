@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>వైకుంఠపాళి
+        Snakes and ladders</title>
+
+<style>
+    #nav{
+
+width: 100%;
+height: 150px;
+display: flex;
+border: 1px solid red;
+    }
+    .imgs{
+        height: 100%;
+        width: 300px;
+        border-radius: 10px;
+        border: 1px solid red;
+    }
+    #h11{
+        margin-left: 50px;
+        font-size:50px;
+    }
+    #jtd{
+        width: 200px;
+        margin-left: 100px;
+    }
+    #snake_img{
+        width: 50%;
+        margin: auto;
+        
+        height: 300px;
+        margin-top: 30px;
+        border: 1px solid red;
+    }
+    #snake_img>img{
+    height: 100%;
+    width: 100%;
+    }
+    #but{
+        margin-left: 45%;
+        margin-top: 2%;
+        height: 50px;
+        width: 200px;
+        font-size: 20px;
+        border-radius: 20px;
+        background-color: blueviolet;
+    
+    }
+#but:hover{
+    background-color: aqua;
+    cursor: pointer;
+
+}
+
+
+    #log_but{
+       
+        margin: auto;
+        height: 100px;
+        width: 50%;
+    }
+    .log{
+        height: 50%;
+        width: 200px;
+        margin-left: 130px;
+        margin-top: 20px;
+        font-size: 26px;
+        border-radius: 20px;
+        background-color: rgb(2, 175, 46);
+        
+    }
+    .log:hover{
+       background-color: red;
+        cursor: pointer;
+    }
+    #left_animation{
+        border: 1px solid red;
+        height: 400px;
+        width: 200px;
+       
+    }
+    #sliding{
+        border: 1px solid red;
+        width: 250px;
+        height: 500px;
+        margin-left: 70px;
+        transform: translateY(-500px);
+        text-align: center;
+        display: grid;
+        overflow: hidden;
+    }
+    #sliding2{
+        border: 1px solid red;
+        width: 250px;
+        height: 500px;
+        margin-left: 1200px;
+        transform: translateY(-1000px);
+        text-align: center;
+    }
+    #sliding3{
+        border: 1px solid red;
+        width: 80%;
+        height: 150px;
+        margin: auto;
+        transform: translateY(-990px);
+    }
+    .ii{
+        margin-left: 80px;
+        margin-top: 50px;
+        
+    }
+    .iii{
+        margin-top: 20px;
+    }
+    @keyframes sliding {
+  0%{
+      transform: skewX(53deg) translateX(-200px);
+  }
+}
+   
+    
+    
+</style>
+
+</head>
+<body>
+
+    <!---navigation bar stared-->
+    <div id="nav">
+        <img class="imgs" src="https://tse1.mm.bing.net/th?id=OIP.b6F8DdzYuZJr9E0IiEmSrgHaBs&pid=Api&P=0&w=555&h=127" alt="imgs">
+        <h1 id="h11">Snake & Ladders (వైకుంఠపాళి)</h1>
+        <img id="jtd"src="https://tse1.mm.bing.net/th?id=OIP.mrDxZb6Un-5FtQgwr0469gHaHb&pid=Api&P=0&w=170&h=170"/>
+    </div>
+<!----navigation bar ended---->
+
+<!-----img has been started-->
+<div id="snake_img">
+    
+<img src="https://tse3.mm.bing.net/th?id=OIP.NYCmciObKEl4gdYNsxOp3wAAAA&pid=Api&P=0&w=313&h=173"/>
+
+</div>
+<!---image box has been ended-->
+
+<!---register and login-->
+
+<a href="login.html"><button id="but">Start The Game</button></a>
+
+<div id="log_but">
+  <a href="login.html"><button class="log" id="lo">Login</button></a>  
+        
+    
+   <a href="register.html"><button class="log">Register</button></a> 
+</div>
+<!----register and login ended-->
+<div id="sliding">
+    <img class="ii" src="https://tse3.mm.bing.net/th?id=OIP.tzxWMxrR_XD_fvCOK4gkWQHaNh&pid=Api&P=0&w=87&h=158"/>
+    <img class="ii"src="https://tse3.mm.bing.net/th?id=OIP.PCL9WpKHymkGzyH10L_6yAHaNh&pid=Api&P=0&w=85&h=156"/>
+<img class="ii" src="http://www.clker.com/cliparts/a/e/3/d/13197441501747420863Garden%20Snake.svg.hi.png"/>
+    <img class="ii"src="https://tse3.mm.bing.net/th?id=OIP.PCL9WpKHymkGzyH10L_6yAHaNh&pid=Api&P=0&w=85&h=156"/>
+
+</div>
+<div id="sliding2">
+    <img  class="iii" src="https://tse3.mm.bing.net/th?id=OIP.Y6u_vqvchXkHL9_taZGF_wHaHa&pid=Api&P=0&w=154&h=154"/>
+    <img  class="iii"src="https://tse4.mm.bing.net/th?id=OIP.8JRWYzaRLRHjc3tGd-owqAHaHa&pid=Api&P=0&w=172&h=172"/>
+</div>
+<div id="sliding3"></div>
+</body>
+</html>
